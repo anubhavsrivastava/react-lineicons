@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './line-icons/LineIcons.css';
+import '../line-icons/LineIcons.css';
 
 const LineIcon = ({ name, size, effect, style, tag: Tag, ...rest }) => {
 	return <Tag className={`lni-${name} size-${size} ${effect ? `lni-${effect}-effect` : ''}`} style={style} {...rest} />;
