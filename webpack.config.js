@@ -19,6 +19,18 @@ module.exports = {
 						presets: ['@babel/env']
 					}
 				}
+			},
+			{
+				test: /\.svg$/,
+				loader: 'svg-inline-loader'
+			},
+			{
+				test: /\.css$/,
+				use: ['style-loader', 'css-loader']
+			},
+			{
+				test: /\.(woff|woff2|ttf|eot|ico)$/,
+				loader: 'file-loader?name=assets/[name].[hash].[ext]'
 			}
 		]
 	},
