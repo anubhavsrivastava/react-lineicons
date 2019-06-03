@@ -9,6 +9,8 @@
 
 Simple react component for using [lineicons](https://lineicons.com) in React application.
 
+Check icons [here](icons.png)
+
 ## Installation
 
 react-lineicons is available as an [npm package](https://www.npmjs.com/package/react-lineicons).
