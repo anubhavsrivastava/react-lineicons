@@ -3,3 +3,4 @@ node_js:
     - '11.10.1'
 script:
     - npm i
+    - npm run build
