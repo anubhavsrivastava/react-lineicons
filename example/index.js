@@ -4,9 +4,7 @@ import LineIcon from "../dist"
 class HelloMessage extends React.Component {
   render() {
     return  <div>
-			Hello
-			{' '}
-			<LineIcon size="lg" name="handshake" />
+			Hello <LineIcon size="lg" name="handshake" />
 			<LineIcon size="lg" name="angellist" />
 		</div>;
   }
