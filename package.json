@@ -24,6 +24,7 @@
 	"bugs": {
 		"url": "https://github.com/anubhavsrivastava/react-lineicons/issues"
 	},
+	"publishConfig": { "registry": "https://npm.pkg.github.com/" },
 	"homepage": "https://github.com/anubhavsrivastava/react-lineicons#readme",
 	"devDependencies": {
 		"@babel/cli": "^7.8.4",
