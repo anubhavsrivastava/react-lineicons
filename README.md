@@ -7,7 +7,7 @@
 
 [![NPM](https://nodei.co/npm/react-lineicons.png?downloads=true&stars=true)](https://www.npmjs.com/package/react-lineicons)
 
-Simple react component for using [lineicons](https://lineicons.com) in React application.
+Simple react component for using [lineicons](https://v2.lineicons.com/) in React application.
 
 Check icons [here](icons.png)
 
@@ -28,24 +28,24 @@ yarn add react-lineicons
 ## Usage
 
 ```jsx
-import React from 'react';
-import ReactDOM from 'react-dom';
-import LineIcon from 'react-lineicons';
+import React from "react";
+import ReactDOM from "react-dom";
+import LineIcon from "react-lineicons";
 
 function App() {
-	return <LineIcon name="spinner" />;
+  return <LineIcon name="spinner" />;
 }
 ```
 
 ## Options
 
-| Property | Type   | Values                                                                                 | Description                                                                                         |
-| :------- | :----- | :------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------- |
-| name     | String | e.g. alarm                                                                             | the name of the icon, see [lineicons](https://lineicons.com/icons/) for list of all available icons |
-| tag      | String | e.g. 'li'                                                                              | by default, Icon tag is `i`, which can be changed to any valid HTML element                         |
-| size     | String | 'lg', 'md', 'sm', 'xs'                                                                 | the size of the icon                                                                                |
-| style    | Object |                                                                                        | custom style object                                                                                 |
-| effect   | String | 'spin', 'tada', 'flashing', 'burst', 'fade-left', 'fade-right', 'fade-up', 'fade-down' | Additional effect on icon                                                                           |
+| Property | Type   | Values                                                                                 | Description                                                                                            |
+| :------- | :----- | :------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------- |
+| name     | String | e.g. alarm                                                                             | the name of the icon, see [lineicons](https://v2.lineicons.com/icons/) for list of all available icons |
+| tag      | String | e.g. 'li'                                                                              | by default, Icon tag is `i`, which can be changed to any valid HTML element                            |
+| size     | String | 'lg', 'md', 'sm', 'xs'                                                                 | the size of the icon                                                                                   |
+| style    | Object |                                                                                        | custom style object                                                                                    |
+| effect   | String | 'spin', 'tada', 'flashing', 'burst', 'fade-left', 'fade-right', 'fade-up', 'fade-down' | Additional effect on icon                                                                              |
 
 Any other prop would directly be applied as on the root element (useful for a11y).
 
