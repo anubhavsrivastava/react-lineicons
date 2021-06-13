@@ -1,55 +1,58 @@
 {
-	"name": "react-lineicons",
-	"version": "2.2.0",
-	"description": "React component for lineicons",
-	"main": "dist/index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "webpack --watch",
-		"build": "webpack",
-		"example": "cd example && npm start"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/anubhavsrivastava/react-lineicons.git"
-	},
-	"peerDependencies": {
-		"react": ">16.0.0"
-	},
-	"author": {
-		"name": "Anubhav Srivastava",
-		"email": "anubhav.srivastava00@gmail.com"
-	},
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/anubhavsrivastava/react-lineicons/issues"
-	},
-	"publishConfig": { "registry": "https://npm.pkg.github.com/" },
-	"homepage": "https://github.com/anubhavsrivastava/react-lineicons#readme",
-	"devDependencies": {
-		"@babel/cli": "^7.8.4",
-		"@babel/core": "^7.8.7",
-		"@babel/plugin-transform-arrow-functions": "^7.8.3",
-		"@babel/plugin-transform-runtime": "^7.8.3",
-		"@babel/preset-env": "^7.8.7",
-		"@babel/preset-react": "^7.8.3",
-		"@babel/preset-stage-0": "^7.8.3",
-		"@babel/preset-stage-1": "^7.8.3",
-		"@babel/preset-stage-2": "^7.8.3",
-		"@babel/preset-stage-3": "^7.8.3",
-		"@babel/runtime": "^7.8.7",
-		"babel-loader": "^8.0.6",
-		"css-loader": "^2.1.1",
-		"file-loader": "^3.0.1",
-		"react": "^16.13.0",
-		"react-dom": "^16.13.0",
-		"style-loader": "^0.23.1",
-		"svg-inline-loader": "^0.8.2",
-		"url-loader": "^1.1.2",
-		"webpack": "^4.42.0",
-		"webpack-cli": "^3.3.11"
-	},
-	"dependencies": {
-		"prop-types": "^15.7.2"
-	}
+  "name": "react-lineicons",
+  "version": "2.2.0",
+  "description": "React component for lineicons",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack",
+    "example": "cd example && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anubhavsrivastava/react-lineicons.git"
+  },
+  "peerDependencies": {
+    "react": ">16.0.0"
+  },
+  "author": {
+    "name": "Anubhav Srivastava",
+    "email": "anubhav.srivastava00@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anubhavsrivastava/react-lineicons/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "homepage": "https://github.com/anubhavsrivastava/react-lineicons#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.14.5",
+    "@babel/compat-data": "^7.14.5",
+	"@babel/plugin-transform-arrow-functions": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+	"@babel/preset-env": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-stage-0": "^7.8.3",
+    "@babel/preset-stage-1": "^7.8.3",
+    "@babel/preset-stage-2": "^7.8.3",
+    "@babel/preset-stage-3": "^7.8.3",
+    "@babel/runtime": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-loader": "^2.0.0",
+    "svg-inline-loader": "^0.8.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
 }
