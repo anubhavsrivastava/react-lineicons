@@ -9,7 +9,7 @@
 
 Simple react component for using [lineicons](https://v2.lineicons.com/) in React application.
 
-Check icons [here](icons.png)
+Check icons [here](https://lineicons.com/icons/)
 
 ## Installation
 
@@ -48,6 +48,12 @@ function App() {
 | effect   | String | 'spin', 'tada', 'flashing', 'burst', 'fade-left', 'fade-right', 'fade-up', 'fade-down' | Additional effect on icon                                                                              |
 
 Any other prop would directly be applied as on the root element (useful for a11y).
+
+---
+
+## Using the Pro version of LineIcons
+
+This module only works with free version of lineicons. To use the Pro version, please use the download section from your lineicons dashboard.
 
 ---
 

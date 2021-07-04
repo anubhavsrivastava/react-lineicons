@@ -9,6 +9,9 @@
     "build": "webpack",
     "example": "cd example && npm start"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anubhavsrivastava/react-lineicons.git"
@@ -24,17 +27,14 @@
   "bugs": {
     "url": "https://github.com/anubhavsrivastava/react-lineicons/issues"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "homepage": "https://github.com/anubhavsrivastava/react-lineicons#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.14.5",
     "@babel/compat-data": "^7.14.5",
-	"@babel/plugin-transform-arrow-functions": "^7.14.5",
+    "@babel/plugin-transform-arrow-functions": "^7.14.5",
     "@babel/plugin-transform-runtime": "^7.14.5",
-	"@babel/preset-env": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-stage-0": "^7.8.3",
     "@babel/preset-stage-1": "^7.8.3",
