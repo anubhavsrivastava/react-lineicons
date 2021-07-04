@@ -1,6 +1,6 @@
 {
   "name": "react-lineicons",
-  "version": "2.2.0",
+  "version": "3.0.0-0",
   "description": "React component for lineicons",
   "main": "dist/index.js",
   "scripts": {
